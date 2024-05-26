@@ -83,7 +83,11 @@ h1 {
   /* position: absolute;
   top: 2rem;
   left: 2rem; */
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
+  /* display: none; */
+}
+.check {
+  display: none;
 }
 
 .guess {

@@ -33,6 +33,8 @@ check.addEventListener(
       numberDisplay.textContent = secretNumber;
       body.style.backgroundColor = '#60b347';
       numberDisplay.style.width = '30rem';
+      check.style.display = 'none';
+      again.style.display = 'block';
       scoreDisplay.textContent = score;
       if (score > highscore) {
         highscore = score;
@@ -85,4 +87,6 @@ again.addEventListener('click', function () {
   // message.textContent = 'Start guessing';
   displayMessage('Start guessing...');
   console.log('new feature');
+  again.style.display = 'none';
+  check.style.display = 'block';
 });
