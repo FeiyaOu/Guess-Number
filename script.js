@@ -83,10 +83,8 @@ again.addEventListener('click', function () {
   scoreDisplay.textContent = score;
   document.querySelector('.guess').value = '';
   secretNumber = Math.trunc(Math.random() * 20) + 1;
-  displayMessage('Start guessing');
   // message.textContent = 'Start guessing';
   displayMessage('Start guessing...');
-  console.log('new feature');
   again.style.display = 'none';
   check.style.display = 'block';
 });
