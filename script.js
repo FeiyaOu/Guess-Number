@@ -84,4 +84,5 @@ again.addEventListener('click', function () {
   displayMessage('Start guessing');
   // message.textContent = 'Start guessing';
   displayMessage('Start guessing...');
+  console.log('new feature');
 });
